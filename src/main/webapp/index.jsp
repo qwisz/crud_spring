@@ -14,7 +14,7 @@
 <body>
 <h1>Hello world</h1>
 <br/>
-<a href="<c:url value="/"/>" target="_blank">Test</a>
+<a href="<c:url value="/books"/>" target="_blank">Test</a>
 <br/>
 </body>
 </html>

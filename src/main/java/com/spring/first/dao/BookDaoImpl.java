@@ -52,7 +52,7 @@ public class BookDaoImpl implements BookDao {
     @SuppressWarnings("unchecked")
     public List<Book> listBooks() {
         Session session = this.sessionFactory.getCurrentSession();
-        List<Book> books = session.createQuery("from books").list();
+        List<Book> books = session.createQuery("from Book").list();
         for (Book book :
                 books) {
             logger.info("Book list: " + book);
